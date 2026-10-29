@@ -1,0 +1,99 @@
+{
+  "scene_description": {
+    "environment": "Living room in a reference image supplied to the executing host",
+    "objective": "Apply Japandi furniture and an oak floor without changing architecture or camera",
+    "architectural_preservation": "Preserve the original spatial geometry, architectural layout, proportions, openings and structural elements",
+    "furniture": "Use furniture appropriate to the selected design style and room function",
+    "decoration": "Add cohesive decorative elements without changing the original framing"
+  },
+  "style": {
+    "architectural_style": "Japandi",
+    "interior_design": "Sophisticated, refined and visually cohesive",
+    "color_palette": "Balanced neutral colors and natural tones",
+    "atmosphere": "Elegant, comfortable and realistic"
+  },
+  "lighting": {
+    "natural": "Physically coherent natural illumination",
+    "artificial": "Soft, balanced architectural lighting",
+    "color_temperature": "Warm neutral",
+    "shadows": "Realistic soft shadows and contact shadows",
+    "reflections": "Physically plausible material reflections",
+    "time_of_day": "Consistent with the reference image unless a lighting change is requested"
+  },
+  "materials": {
+    "flooring": "Natural oak with a matte finish",
+    "walls": "High-quality finishes appropriate to the design",
+    "ceiling": "Preserve the original ceiling geometry",
+    "wood": "Natural grain and physically plausible finish",
+    "stone": "Detailed natural veining and realistic reflectivity",
+    "fabrics": "Natural fibers with realistic surface details",
+    "metals": "Accurate reflections and finish characteristics",
+    "glass": "Realistic transparency and reflections"
+  },
+  "camera": {
+    "preservation_rule": "The point of view, camera height, perspective and framing are identical to the original image and must not be changed.",
+    "camera_position": "Exactly identical to the reference image",
+    "camera_height": "Exactly identical to the reference image",
+    "viewing_angle": "Exactly identical to the reference image",
+    "perspective": "Preserve the original perspective geometry",
+    "focal_length": "Preserve the apparent original focal length",
+    "framing": "Exactly identical to the reference image",
+    "depth_of_field": "Consistent with the original reference",
+    "camera_movement": "Strictly prohibited",
+    "reference_available": true
+  },
+  "composition": {
+    "spatial_layout": "Preserve the original architectural layout",
+    "object_scale": "Maintain physically accurate object proportions",
+    "vanishing_points": "Preserve the original perspective vanishing points",
+    "geometry": "No changes to structural geometry",
+    "image_boundaries": "Maintain the original image boundaries",
+    "visual_balance": "Integrate design elements without altering the camera composition"
+  },
+  "resolution": {
+    "target": "4K or higher when supported",
+    "rendering_quality": "Ultra photorealistic",
+    "texture_detail": "High definition",
+    "image_clarity": "Professional architectural photography",
+    "physical_accuracy": "Realistic material, light and shadow behavior"
+  },
+  "people": {
+    "enabled": false,
+    "quantity": 0,
+    "appearance": "Natural, realistic and elegant",
+    "clothing": "Neutral and sophisticated",
+    "expression": "Soft and natural",
+    "integration": "Correct scale, lighting and contact shadows",
+    "existing_subjects": "Preserve existing subjects unless removal is requested"
+  },
+  "pets": {
+    "enabled": false,
+    "type": "None",
+    "quantity": 0,
+    "appearance": "Photorealistic",
+    "integration": "Natural placement, realistic anatomy and coherent lighting",
+    "existing_subjects": "Preserve existing subjects unless removal is requested"
+  },
+  "constraints": {
+    "preserve_architecture": true,
+    "preserve_camera": true,
+    "preserve_framing": true,
+    "preserve_perspective": true,
+    "preserve_spatial_proportions": true,
+    "allow_structural_changes": false,
+    "negative_prompt": [
+      "No camera movement",
+      "No change of viewpoint",
+      "No perspective shift",
+      "No camera height modification",
+      "No reframing",
+      "No artificial zoom",
+      "No altered focal length",
+      "No structural deformation",
+      "No distorted geometry",
+      "No unrealistic object proportions",
+      "No inconsistent lighting",
+      "No rendering artifacts"
+    ]
+  }
+}

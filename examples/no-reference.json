@@ -1,0 +1,99 @@
+{
+  "scene_description": {
+    "environment": "Proposed contemporary living room without a reference image",
+    "objective": "Create a new interior concept from a text description",
+    "architectural_preservation": "Proposed room geometry; no source architecture has been inspected",
+    "furniture": "Use furniture appropriate to the selected design style and room function",
+    "decoration": "Add cohesive decorative elements without changing the original framing"
+  },
+  "style": {
+    "architectural_style": "Japandi",
+    "interior_design": "Sophisticated, refined and visually cohesive",
+    "color_palette": "Balanced neutral colors and natural tones",
+    "atmosphere": "Elegant, comfortable and realistic"
+  },
+  "lighting": {
+    "natural": "Physically coherent natural illumination",
+    "artificial": "Soft, balanced architectural lighting",
+    "color_temperature": "Warm neutral",
+    "shadows": "Realistic soft shadows and contact shadows",
+    "reflections": "Physically plausible material reflections",
+    "time_of_day": "Proposed soft daylight"
+  },
+  "materials": {
+    "flooring": "Natural oak with a matte finish",
+    "walls": "High-quality finishes appropriate to the design",
+    "ceiling": "Preserve the original ceiling geometry",
+    "wood": "Natural grain and physically plausible finish",
+    "stone": "Detailed natural veining and realistic reflectivity",
+    "fabrics": "Natural fibers with realistic surface details",
+    "metals": "Accurate reflections and finish characteristics",
+    "glass": "Realistic transparency and reflections"
+  },
+  "camera": {
+    "preservation_rule": "No reference image is available; no original camera has been verified.",
+    "camera_position": "Proposed eye-level frontal view; no source camera verified",
+    "camera_height": "Proposed eye-level frontal view; no source camera verified",
+    "viewing_angle": "Proposed eye-level frontal view; no source camera verified",
+    "perspective": "Proposed eye-level frontal view; no source camera verified",
+    "focal_length": "Proposed eye-level frontal view; no source camera verified",
+    "framing": "Proposed eye-level frontal view; no source camera verified",
+    "depth_of_field": "Proposed eye-level frontal view; no source camera verified",
+    "camera_movement": "Proposed eye-level frontal view; no source camera verified",
+    "reference_available": false
+  },
+  "composition": {
+    "spatial_layout": "Proposed layout from the user brief",
+    "object_scale": "Maintain physically accurate object proportions",
+    "vanishing_points": "Coherent proposed perspective",
+    "geometry": "No changes to structural geometry",
+    "image_boundaries": "Proposed framing",
+    "visual_balance": "Integrate design elements without altering the camera composition"
+  },
+  "resolution": {
+    "target": "4K or higher when supported",
+    "rendering_quality": "Ultra photorealistic",
+    "texture_detail": "High definition",
+    "image_clarity": "Professional architectural photography",
+    "physical_accuracy": "Realistic material, light and shadow behavior"
+  },
+  "people": {
+    "enabled": false,
+    "quantity": 0,
+    "appearance": "Natural, realistic and elegant",
+    "clothing": "Neutral and sophisticated",
+    "expression": "Soft and natural",
+    "integration": "Correct scale, lighting and contact shadows",
+    "existing_subjects": "Preserve existing subjects unless removal is requested"
+  },
+  "pets": {
+    "enabled": false,
+    "type": "None",
+    "quantity": 0,
+    "appearance": "Photorealistic",
+    "integration": "Natural placement, realistic anatomy and coherent lighting",
+    "existing_subjects": "Preserve existing subjects unless removal is requested"
+  },
+  "constraints": {
+    "preserve_architecture": true,
+    "preserve_camera": false,
+    "preserve_framing": false,
+    "preserve_perspective": false,
+    "preserve_spatial_proportions": true,
+    "allow_structural_changes": false,
+    "negative_prompt": [
+      "No camera movement",
+      "No change of viewpoint",
+      "No perspective shift",
+      "No camera height modification",
+      "No reframing",
+      "No artificial zoom",
+      "No altered focal length",
+      "No structural deformation",
+      "No distorted geometry",
+      "No unrealistic object proportions",
+      "No inconsistent lighting",
+      "No rendering artifacts"
+    ]
+  }
+}

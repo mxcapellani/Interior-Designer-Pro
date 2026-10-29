@@ -1,0 +1,3 @@
+# styles-materials
+
+Contemporâneo e minimalista: formas limpas, poucos materiais. Japandi e escandinavo: madeira clara, tons suaves e simplicidade. Clássico/luxo: mármore, metais e acabamentos refinados. Industrial: concreto e metal. Incluir mediterrâneo, tropical, rústico, orgânico, boho, art déco, mid-century e biofílico conforme o pedido. Madeiras: carvalho, nogueira, freijó; pedras: mármore, travertino, granito, quartzito; pisos: porcelanato, madeira, concreto, microcimento; metais: latão, bronze, aço escovado, preto fosco; tecidos: linho, bouclé, veludo, algodão; vidros: transparente, fumê, canelado, acidato. Detalhar veios, textura, brilho e rugosidade coerentes com escala e luz, sem transformar acabamento em geometria nova.

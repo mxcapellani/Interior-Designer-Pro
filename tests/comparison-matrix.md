@@ -1,0 +1,3 @@
+# Comparação
+Aplicar exatamente T01–T16 ao original e à Skill com as mesmas imagens, configurações e versão de modelo. Guardar saídas brutas. Original indisponível e testes comportamentais não executados.
+Avaliar cobertura, precisão, qualidade, consistência, formato, especialidade, autonomia, referências, utilidade e recursos novos. Escala 0 falha, 1 parcial, 2 atende. Aprovar cada caso somente com todas as restrições críticas satisfeitas; qualquer câmera inventada ou mudança não autorizada reprova. Testes JSON não demonstram fidelidade visual. Regiões e consistência são extensões propostas, não capacidades do original comprovadas.

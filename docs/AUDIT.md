@@ -1,0 +1,4 @@
+# Auditoria e preservação
+Verificado documentalmente: capacidades A–J da especificação, câmera prioritária, duas saídas, dez chaves, estilos, luz, materiais, pessoas/pets opcionais. Não verificado comportamentalmente: agente original e qualidade de renders; não alegar equivalência.
+Ambiguidade resolvida: scene_description aparece como string no esqueleto e objeto no modelo detalhado. O contrato canônico usa objeto, mantendo a especificação integral separada. Sem imagem, não repetir afirmação de câmera verificada: ramo explícito de ausência de referência tem precedência.
+Novos recursos: flags de referência, tratamento de sujeitos existentes, iteração completa, validação determinística e modos avançados condicionais. Comparação é avaliação visual de indícios, não calibração. Regiões são descrições; não há mascaramento automático. Cada capacidade não verificada deve passar pelos casos de aceitação.
